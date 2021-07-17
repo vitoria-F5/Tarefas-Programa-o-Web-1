@@ -88,9 +88,8 @@ body {
 
 .lightsaber {
     position: absolute;
-    left: 485px;
-    top: 300px
-
+    left: 300px;
+    top: 335px
 }
 
 .lightsaber img {
