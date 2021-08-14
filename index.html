@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Vitória Isabel Lemos de Mattos</title>
-        
-        <link rel="stylesheet" href="estilos.css">
-        <style>
-        
-        #p1 {background-color:#00FFFF;}
-
-        body {
-          font-family: 'Courier New', monospace;
+        <title>
+        Vitória Isabel Lemos de Mattos
+        </title>
+        <script>
+          function aumentar(fontSize) {
+          h2 = document.querySelector("h2")
+          h2.style.fontSize = "40px";
         }
-        div {
-  width: 800px;
-  height: 2px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
-}
+        </script>
+      
+    </head>
 
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 500px;}
-}
-</style>
-</head>
-
-<div></div>
-</head>
-<body style="color: black">
-
-        <h2>Repositório de Vitória Isabel para entrega de atividades de programação web 1</h2>
-        <p>Um repositório é basicamente um lugar para armazenar alguma coisa, podendo ser físico ou virtual.</p>
-        
+<body>
+    <div>
+        <button onclick="aumentar('fontSize')">+</button>
+    </div>
+    <h2>
+        Repositório de Vitória Isabel para entrega de atividades de programação web 1
+    </h2>
+    
+    <script>
+      function diminuir(fontSize) {
+          h2 = document.querySelector("h2")
+          h2.style.fontSize = "35px";
+        }
+      </script>
+      <button onclick="diminuir('fontSize')">-</button>
+  
         <h3>Caso se pergunte quem sou eu:</h3>
         <p>Aluna do IFES, cursando o segundo ano do ensino médio <br> Curso integrado em informática para internet</p>
 
@@ -44,21 +40,7 @@
         <img src= "https://i.pinimg.com/736x/35/99/4c/35994ce10135c2f6fecd6a021d806e17.jpg" alt="Arte 3">
 
         <h3>Minha rotina diária</h3>
-        <ol>
-            <li>Acordar</li>
-            <li>Arrumar o quarto</li>
-            <li>Banho</li>
-            <li>Escutar qualquer música pacifista do John Lennon</li>
-            <li>Tomar café</li>
-            <li>Escovar os dentes</li>
-            <li>Estudar</li>
-            <li>Almoçar</li>
-            <li>Estudar</li>
-            <li>Arrumar a casa</li>
-            <li>Caminhada</li>
-            <li>Etc...</li>
-        </ol>
-
+  
         <nav>
         </ul>
             <li><a href="Supernova.html">O que é uma supernova?"</a></li>
@@ -69,7 +51,6 @@
         <a href="https://www.camara.leg.br/noticias/545051-conheca-o-valor-do-salario-de-um-deputado-e-demais-verbas-parlamentares/">Salário de um deputado federal</a>
         <br><a href="https://www.vagalume.com.br/hinos/hino-nacional-do-egito-traducao.html">Hino nacional do Egito</a>
 
-	<p id="p1">ObservarAbsorver</p>
-
 </body>
+
 </html>
