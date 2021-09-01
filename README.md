@@ -5,5 +5,6 @@ https://vitoria-f5.github.io/Tarefas-Programa-o-Web-1/
 <br> https://vitoria-f5.github.io/Tarefas-Programa-o-Web-1/BuracoNegro.html
 <br> https://vitoria-f5.github.io/Tarefas-Programa-o-Web-1/formulario.html
 <br> https://vitoria-f5.github.io/Tarefas-Programa-o-Web-1/js
+<br> https://vitoria-f5.github.io/Tarefas-Programa-o-Web-1/quadradomagico
 
 
